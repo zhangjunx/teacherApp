@@ -1,0 +1,31 @@
+
+page{
+	background: #fff;
+}
+.aboutUs{
+	padding: 60rpx 40rpx;
+}
+.aboutUs-top{
+	text-align: center;
+}
+.aboutUs-top image{
+	width: 330rpx;
+}
+.aboutUs-top .title{
+	text-align: center;
+	color: #297BEF;
+	font-size: 16px;
+}
+.aboutUs-top .version{
+	color: #666;
+	text-align: center;
+	font-size: 14px;
+}
+.aboutUs-con{
+	margin-top: 40rpx;
+	line-height: 28px;
+	font-size: 16px;
+	color: #666;
+}
+
+

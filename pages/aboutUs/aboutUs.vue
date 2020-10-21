@@ -1,0 +1,49 @@
+<template>
+	<view class="aboutUs">
+		<view class="aboutUs-top">
+			<image src="../../static/login/logo.png" mode="widthFix"></image>
+			<view class="title">大圣乐享</view>
+			<view class="version">v2.3.2.0</view>
+		</view>
+		<view class="aboutUs-con">
+			河南大圣文化发展有限公司是一家集教育信息化管理平台开发与应用的高新技术企业 ，公司始终秉承服务教育、发展教育的核心理念，
+			为教育部门、学校、教师、家长、学生搭建一个共建共享的绿色教育平台，内容涵盖学生安全管理、健康管理、学情分析、公益助学、
+			活动策划、教育教学物联网设备，网络商城等。 
+		</view>
+	</view>
+</template>
+
+<script>
+</script>
+
+<style>
+page{
+	background: #fff;
+}
+.aboutUs{
+	padding: 60rpx 40rpx;
+}
+.aboutUs-top{
+	text-align: center;
+}
+.aboutUs-top image{
+	width: 330rpx;
+}
+.aboutUs-top .title{
+	text-align: center;
+	color: #297BEF;
+	font-size: 16px;
+}
+.aboutUs-top .version{
+	color: #666;
+	text-align: center;
+	font-size: 14px;
+}
+.aboutUs-con{
+	margin-top: 40rpx;
+	line-height: 28px;
+	font-size: 16px;
+	color: #666;
+}
+
+</style>

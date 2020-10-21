@@ -1,0 +1,68 @@
+
+page{
+	padding-top: 20rpx;
+	background: #F5F5F5;
+}
+.faceBox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #fff;
+	padding: 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.faceBox view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.faceBox .faceImg{
+	width: 100rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.faceBox .jtleft{
+	margin-left: 20rpx;
+	width: 20rpx;
+}
+.username{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #fff;
+	padding: 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.usernumber{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #fff;
+	padding: 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.line{
+	height: 1px;
+	background-color: #E5E5E5;
+	width: 95%;
+	margin: 0 auto;
+}
+

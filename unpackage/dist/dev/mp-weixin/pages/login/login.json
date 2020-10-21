@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "防控教务平台",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-popup-message": "/components/uni-popup/uni-popup-message"
+  }
+}

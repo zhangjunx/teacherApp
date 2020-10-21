@@ -1,0 +1,51 @@
+
+page{
+	background: #F5F5F5;
+	padding-top: 30rpx;
+}
+.updateBox view{
+	font-size: 18px;
+}
+.updateBox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 20rpx 25rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #fff;
+	-webkit-box-shadow: -5px 2px 2px #eee;
+	        box-shadow: -5px 2px 2px #eee;
+}
+.updateBox .mine-photo-right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.updateBox .mine-photo-right image{
+	width: 20rpx;
+}
+.exitBtn button{
+	width: 600rpx;
+	background: #FF3D3F;
+	-webkit-border-radius: 50rpx;
+	        border-radius: 50rpx;
+	color:#fff;
+	border: none;
+}
+.exitBtn{
+	margin-top: 80rpx;
+	text-align: center;
+}
+.btn-active{
+	opacity: 0.7;
+}
+

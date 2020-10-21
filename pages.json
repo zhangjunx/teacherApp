@@ -1,0 +1,132 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "防控教务平台"
+			}
+		},
+		{
+			"path":"pages/classData/classData",
+			"style":{
+				"navigationBarTitleText":"班级动态",
+				"navigationBarBackgroundColor":"#111943"
+			}
+		},
+		{
+			"path":"pages/classData/classLeave",
+			"style":{
+				"navigationBarTitleText":"请假详情",
+				"navigationBarBackgroundColor":"#111943"
+			}
+		},
+		{
+			"path":"pages/classData/absence",
+			"style":{
+				"navigationBarTitleText":"缺勤详情",
+				"navigationBarBackgroundColor":"#111943"
+			}
+		},
+		{
+			"path":"pages/classData/temperatureNotNormal",
+			"style":{
+				"navigationBarTitleText":"体温异常",
+				"navigationBarBackgroundColor":"#111943"
+			}
+		},
+		{
+			"path":"pages/mine/mine",
+			"style":{
+				"navigationBarTitleText":"我的",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path":"pages/matter/matter",
+			"style":{
+				"navigationBarTitleText":"常见问题",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/aboutUs/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/setUp/setUp",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path":"pages/updatePassword/updatePassword",
+			"style":{
+				"navigationBarTitleText":"修改密码"
+			}
+		},
+		{
+			"path":"pages/editPersonInfo/editPersonInfo",
+			"style":{
+				"navigationBarTitleText":"个人信息",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path":"pages/askLeave/askLeave",
+			"style":{
+				"navigationBarTitleText":"请假记录",
+				"enablePullDownRefresh":true
+				//"onReachBottomDistance":
+			}
+		},
+		{
+			"path":"pages/askLeave/leaveDetail",
+			"style":{
+				"navigationBarTitleText":"学生请假详情",
+				"enablePullDownRefresh":true
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+		//"enablePullDownRefresh":true
+	},
+	
+	"tabBar":{
+		"color": "#999999",
+		"selectedColor": "#1571FB",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"iconPath":"static/icon/Wshou.png",
+				"selectedIconPath":"static/icon/shou.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/classData/classData",
+				"iconPath":"static/icon/class.png",
+				"selectedIconPath":"static/icon/class-active.png",
+				"text":"班级动态"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/icon/Wwo.png",
+				"selectedIconPath":"static/icon/wo.png",
+				"text":"我的"
+			}
+		]
+	}
+}

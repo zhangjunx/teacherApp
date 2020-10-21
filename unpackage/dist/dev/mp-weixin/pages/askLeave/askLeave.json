@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "请假记录",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
